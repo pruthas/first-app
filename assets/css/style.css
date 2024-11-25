@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand svg {
+    width:40px;
+    height:40px;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.nav-row a {
+    color: white !important;
+}
+
+
+
+
+.contact-form {
+    font-size: 70% !important;
+}
+
+.contact-form input,textarea,button,label {
+    font-size: 70% !important;
+}
+input::placeholder
+{
+    font-size: 70% !important;
+}
+
+@media screen and (max-width:576px) {
+    .download-btn-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-form {
+        width: 75vw !important;
+    }
+}
